@@ -1,5 +1,5 @@
 #перемножение строк и столбцов, своеобразная матрица
-"""
+
 a = int(input())
 b = int(input())
 c = int(input())
@@ -8,7 +8,6 @@ for i in range (a, b+1):
     for j in range (c, d+1):
         print(i * j, end="\t")
     print(i, "\n")
-"""
 #перемножение c d, сначала на а, потом на b
 """
 a = int(input())
