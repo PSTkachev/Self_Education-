@@ -3,7 +3,7 @@ import random
 import telebot;
 from telebot import types # Импортируем типы из модуля, чтобы создавать кнопки
 
-bot = telebot.TeleBot('1212661447:AAHve1sQc_dRvjo_CLMjkqp4mMbCWvlWEsc');
+bot = telebot.TeleBot('121__7:AAH__c');
 
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
